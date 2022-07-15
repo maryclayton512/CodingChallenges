@@ -5,14 +5,15 @@
 
 #make class named coffeeMachine
 class coffeeMachine:
+#INPUT
     #set self to coffee and cup
     def __init__(self, newCoffee, newCup):
-        self._Coffee = newCoffee
-        self._Cup = newCup
+        self._coffee = newCoffee
+        self._cup = newCup
 
     #get coffee to self
     def get_coffee(self):
-        return self._Coffee
+        return self.coffee
     
     #set coffee and print make coffee
     def set_coffee(self):
@@ -20,10 +21,13 @@ class coffeeMachine:
 
     #get cup to self
     def get_cup(self):
-        return self._Cup
+        return self.cup
     
     #set cup and print pour coffee into cup
     def set_cup(self):
         print("Pour coffee into cup")
-    
+#OUTPUT
+cm = coffeeMachine("expresso", "red mug")
+print(cm.get_coffee())
+print(cm.get_cup())
         
