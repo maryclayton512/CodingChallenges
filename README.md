@@ -11,4 +11,3 @@
 ### Data Structures and Algorithms
 - Stacks
 
-[![Run on Repl.it](https://repl.it/badge/github/maryclayton512/firstprogram)](https://repl.it/github/maryclayton512/firstprogram)
