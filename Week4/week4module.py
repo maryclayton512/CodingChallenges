@@ -16,10 +16,10 @@ class Person:
 
 class Employee(Person):
     # is-a relationship between person, employee, and customer
-    def __init__(self, employeeNum, hireDate, newName, newLicense, newSocial, newPhone):
+    def __init__(self, newEmployeeNum, newHireDate, newName, newLicense, newSocial, newPhone):
         Person.__init__(self, newName, newLicense, newSocial, newPhone)
-        self.employeeNum = employeeNum
-        self.hireDate = hireDate
+        self.employeeNum = newEmployeeNum
+        self.hireDate = newHireDate
 
 class Customer(Person):
     def __init__(self, newCustomerName, newCreditLimit, newName, newLicense, newSocial, newPhone):
