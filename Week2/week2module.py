@@ -1,5 +1,3 @@
-from regex import E
-
 class Car:
     def __init__(self):
         self.model_year = 0
